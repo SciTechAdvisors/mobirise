@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Brooklynz Barbershop",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "blackamp",
       "title": "BlackAMP",
@@ -32,7 +32,7 @@
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/brooklynz-128x128.png",
     "noImageResize": "",
-    "uniqCompNum": 17,
+    "uniqCompNum": 21,
     "versionPublish": "4.8.7"
   },
   "pages": {
@@ -400,13 +400,15 @@
             }
           },
           "_name": "footer4",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
-          "_cid": "rbhKkx9jOA",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
+          "_anchor": "footer4-j",
+          "_isUserblock": true,
+          "_sourceTheme": "blackamp",
+          "_cid": "rbhWXEQSau",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer4-1"
+          "_params": {}
         }
       ]
     },
@@ -593,7 +595,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#15181b\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo15.png\" layout=\"responsive\" width=\"101.59574468085107\" height=\"100\" alt=\"Mobirise\">\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo15.png\" alt=\"Mobirise\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a>\n              <a class=\"text-white\" href=\"page2.html\" data-app-placeholder=\"Type Text\">Services</a>\n              <a class=\"text-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Location</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"mailto:bkzbarbershop@gmail.com\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#15181b\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo16.png\" layout=\"responsive\" width=\"101.59574468085107\" height=\"100\" alt=\"Mobirise\">\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo16.png\" alt=\"Mobirise\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a>\n              <a class=\"text-white\" href=\"page2.html\" data-app-placeholder=\"Type Text\">Services</a>\n              <a class=\"text-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Location</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"mailto:bkzbarbershop@gmail.com\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_anchor": "menu1-c",
           "_isUserblock": true,
           "_sourceTheme": "blackamp",
@@ -625,7 +627,7 @@
             }
           },
           "_name": "features7",
-          "_customHTML": "<section class=\"features7\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"7\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#15181b\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-8\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/untitled-picture.1-1420x770.png\" layout=\"responsive\" width=\"710\" height=\"385\" alt=\"Mobirise\">\n                    <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m2!3m1!1s0x0:0xe3f7264678ae195d?ved=2ahUKEwjz7erE6YbfAhWDOn0KHcxMDcYQ_BIwCnoECAYQCA\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/untitled-picture.1-1420x770.png\" alt=\"Mobirise\" title></a>\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-4\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-section-btn\">Contact Us</h3>\n                <p class=\"mbr-fonts-style mbr-text align-center mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">1800 W. Bethany Home Rd.\n<br>Phoenix, Arizona 85015</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-info\" href=\"tel:+1 (602) 405-8911\" data-app-placeholder=\"Type Text\">Call Us</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features7\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"7\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#15181b\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-8\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/untitled-picture.1-1420x770.png\" layout=\"responsive\" width=\"710\" height=\"385\" alt=\"Mobirise\">\n                    <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m2!3m1!1s0x0:0xe3f7264678ae195d?ved=2ahUKEwjz7erE6YbfAhWDOn0KHcxMDcYQ_BIwCnoECAYQCA\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/untitled-picture.1-1420x770.png\" alt=\"Mobirise\" title=\"\"></a>\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-4\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-section-btn\">Contact Us</h3>\n                <p class=\"mbr-fonts-style mbr-text align-center mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">1800 W. Bethany Home Rd.\n<br>Phoenix, Arizona 85015</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-info\" href=\"tel:+1 (602) 405-8911\" data-app-placeholder=\"Type Text\">Call Us</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rbhVv5OTQk",
           "_anchor": "features7-f",
           "_protectedParams": [],
@@ -711,11 +713,11 @@
             }
           },
           "_name": "footer4",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
-          "_anchor": "footer4-g",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
+          "_anchor": "footer4-k",
           "_isUserblock": true,
           "_sourceTheme": "blackamp",
-          "_cid": "rbhVEl5wZz",
+          "_cid": "rbhX2cIwZM",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -729,6 +731,165 @@
         "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1rem"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": ".5rem"
+            },
+            ".mbr-card-title": {
+              "margin": "0"
+            },
+            ".mbr-text": {
+              "margin": "0"
+            },
+            ".card": {
+              "padding": "1rem",
+              "border-radius": "0",
+              "margin-bottom": "2rem"
+            },
+            ".card1 .mbr-card-title": {
+              "color": "#ffffff"
+            },
+            ".card2 .mbr-card-title": {
+              "color": "#5b686b"
+            },
+            ".card3 .mbr-card-title": {
+              "color": "#232323"
+            },
+            ".card4 .mbr-card-title": {
+              "color": "#ffffff"
+            },
+            ".card1": {
+              "background": "@card1Color"
+            },
+            ".card2": {
+              "background": "@card2Color"
+            },
+            ".card3": {
+              "background": "@card3Color"
+            },
+            ".card4": {
+              "background": "@card4Color"
+            },
+            "@media (min-width: 768px)": {
+              ".card": {
+                "padding": "2rem"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".card": {
+                "margin-bottom": "0"
+              }
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section class=\"features3 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Content Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Icons On Hover\" name=\"onHoverColor\" value=\"#ffbc00\" condition=\"swIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" name=\"card1Color\" title=\"Card 1 Color\" value=\"#15181b\">\n        <input type=\"color\" name=\"card2Color\" title=\"Card 2 Color\" value=\"#e0e0e0\" condition=\"cardsAmount>1\">\n        <input type=\"color\" name=\"card3Color\" title=\"Card 3 Color\" value=\"#dd4f39\" condition=\"cardsAmount>2\">\n        <input type=\"color\" name=\"card4Color\" title=\"Card 4 Color\" value=\"#b2ccd2\" condition=\"cardsAmount>3\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card1\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card1>.mbr-card-title,.card1>.mbr-section-btn\">\n                        Concepting\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card1>.mbr-text,.card1>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card2\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card2>.mbr-card-title,.card2>.mbr-section-btn\">\n                        Ui/Ux\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card2>.mbr-text,.card2>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card3\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card3>.mbr-card-title,.card3>.mbr-section-btn\">Visual</h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card3>.mbr-text,.card3>.mbr-section-btn\">\n                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card4\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card4>.mbr-card-title,.card4>.mbr-section-btn\">\n                        Interaction\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card4>.mbr-text,.card4>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rbhPJMea6h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features3-9"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".foot-menu": {
+              "list-style": "none",
+              "display": "flex",
+              "justify-content": "center",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "li": {
+                "padding": "0 1rem 1rem 1rem",
+                "p": {
+                  "margin": "0"
+                }
+              },
+              "margin-bottom": "0"
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "& when (@showCopyright)": {
+                "padding-bottom": "1rem"
+              },
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": ".5",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                },
+                ".mbr-iconfont": {
+                  "font-size": "~\"@{iconsSize}px\"",
+                  "color": "@iconsColor"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "justify-content": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".row-copiright": {
+              "word-break": "break-word",
+              "width": "100%",
+              "p": {
+                "width": "100%",
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            "foot-menu-item": {
+              "color": "#cccccc"
+            }
+          },
+          "_name": "footer4",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
+          "_anchor": "footer4-h",
+          "_isUserblock": true,
+          "_sourceTheme": "blackamp",
+          "_cid": "rbhWPpj7jN",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
         {
           "_styles": {
             "amp-sidebar": {
@@ -905,173 +1066,14 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#15181b\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo15.png\" layout=\"responsive\" width=\"101.59574468085107\" height=\"100\" alt=\"Mobirise\">\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo15.png\" alt=\"Mobirise\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a>\n              <a class=\"text-white\" href=\"page2.html\" data-app-placeholder=\"Type Text\">Services</a>\n              <a class=\"text-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Location</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"mailto:bkzbarbershop@gmail.com\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
-          "_anchor": "menu1-7",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#15181b\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo16.png\" layout=\"responsive\" width=\"101.59574468085107\" height=\"100\" alt=\"Mobirise\">\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo16.png\" alt=\"Mobirise\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a>\n              <a class=\"text-white\" href=\"page2.html\" data-app-placeholder=\"Type Text\">Services</a>\n              <a class=\"text-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Location</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"mailto:bkzbarbershop@gmail.com\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_anchor": "menu1-i",
           "_isUserblock": true,
           "_sourceTheme": "blackamp",
-          "_cid": "rbhP9266XZ",
+          "_cid": "rbhWRvgHbg",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1rem"
-            },
-            ".mbr-section-title": {
-              "margin-bottom": ".5rem"
-            },
-            ".mbr-card-title": {
-              "margin": "0"
-            },
-            ".mbr-text": {
-              "margin": "0"
-            },
-            ".card": {
-              "padding": "1rem",
-              "border-radius": "0",
-              "margin-bottom": "2rem"
-            },
-            ".card1 .mbr-card-title": {
-              "color": "#ffffff"
-            },
-            ".card2 .mbr-card-title": {
-              "color": "#5b686b"
-            },
-            ".card3 .mbr-card-title": {
-              "color": "#232323"
-            },
-            ".card4 .mbr-card-title": {
-              "color": "#ffffff"
-            },
-            ".card1": {
-              "background": "@card1Color"
-            },
-            ".card2": {
-              "background": "@card2Color"
-            },
-            ".card3": {
-              "background": "@card3Color"
-            },
-            ".card4": {
-              "background": "@card4Color"
-            },
-            "@media (min-width: 768px)": {
-              ".card": {
-                "padding": "2rem"
-              }
-            },
-            "@media (min-width: 992px)": {
-              ".card": {
-                "margin-bottom": "0"
-              }
-            }
-          },
-          "_name": "features3",
-          "_customHTML": "<section class=\"features3 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Content Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Icons On Hover\" name=\"onHoverColor\" value=\"#ffbc00\" condition=\"swIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" name=\"card1Color\" title=\"Card 1 Color\" value=\"#15181b\">\n        <input type=\"color\" name=\"card2Color\" title=\"Card 2 Color\" value=\"#e0e0e0\" condition=\"cardsAmount>1\">\n        <input type=\"color\" name=\"card3Color\" title=\"Card 3 Color\" value=\"#dd4f39\" condition=\"cardsAmount>2\">\n        <input type=\"color\" name=\"card4Color\" title=\"Card 4 Color\" value=\"#b2ccd2\" condition=\"cardsAmount>3\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card1\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card1>.mbr-card-title,.card1>.mbr-section-btn\">\n                        Concepting\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card1>.mbr-text,.card1>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card2\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card2>.mbr-card-title,.card2>.mbr-section-btn\">\n                        Ui/Ux\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card2>.mbr-text,.card2>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card3\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card3>.mbr-card-title,.card3>.mbr-section-btn\">Visual</h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card3>.mbr-text,.card3>.mbr-section-btn\">\n                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card4\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card4>.mbr-card-title,.card4>.mbr-section-btn\">\n                        Interaction\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card4>.mbr-text,.card4>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rbhPJMea6h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "features3-9"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".foot-menu": {
-              "list-style": "none",
-              "display": "flex",
-              "justify-content": "center",
-              "flex-wrap": "wrap",
-              "padding": "0",
-              "li": {
-                "padding": "0 1rem 1rem 1rem",
-                "p": {
-                  "margin": "0"
-                }
-              },
-              "margin-bottom": "0"
-            },
-            ".social-list": {
-              "padding-left": "0",
-              "& when (@showCopyright)": {
-                "padding-bottom": "1rem"
-              },
-              "margin-bottom": "0",
-              "list-style": "none",
-              "display": "flex",
-              "flex-wrap": "wrap",
-              "justify-content": "flex-end",
-              "-webkit-justify-content": "flex-end",
-              ".soc-item": {
-                "margin": "0 .5rem"
-              },
-              "a": {
-                "margin": "0",
-                "opacity": ".5",
-                "-webkit-transition": ".2s linear",
-                "transition": ".2s linear",
-                "&:hover": {
-                  "opacity": "1"
-                },
-                ".mbr-iconfont": {
-                  "font-size": "~\"@{iconsSize}px\"",
-                  "color": "@iconsColor"
-                }
-              },
-              "@media (max-width: 767px)": {
-                "justify-content": "center",
-                "-webkit-justify-content": "center"
-              }
-            },
-            ".row-copiright": {
-              "word-break": "break-word",
-              "width": "100%",
-              "p": {
-                "width": "100%",
-                "padding": "0",
-                "margin": "0"
-              }
-            },
-            "foot-menu-item": {
-              "color": "#cccccc"
-            }
-          },
-          "_name": "footer4",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"16\" max=\"100\" step=\"1\" value=\"35\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#efefef\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">Home</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/brooklynz602/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.google.com/maps/place/Brooklyn'z+Barbershop/@33.5245177,-112.0984473,15z/data=!4m5!3m4!1s0x0:0xe3f7264678ae195d!8m2!3d33.5245177!4d-112.0984473\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google-plus-square fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.yelp.com/biz/brooklynz-barbershop-phoenix\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-yelp fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © Copyright 2018 Brooklynz Barbershop, LLC - All Rights Reserved\n                </p>\n            </div>\n    </div>\n</section>",
-          "_anchor": "footer4-e",
-          "_isUserblock": true,
-          "_sourceTheme": "blackamp",
-          "_cid": "rbhVh2K6Tb",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
           "_params": {}
         }
       ]
